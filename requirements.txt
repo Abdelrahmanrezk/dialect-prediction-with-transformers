@@ -1,0 +1,11 @@
+nltk
+sklearn
+pycld2
+matplotlib
+tensorflow
+fastapi
+uvicorn
+dvc
+transformers
+datasets
+pytorch

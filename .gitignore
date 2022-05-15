@@ -1,4 +1,4 @@
 .gitignore
 dataset/train/strat_train_set.csv
-__pycache__/
-.ipynb_checkpoints/
+notebooks/__pycache__/
+notebooks/.ipynb_checkpoints/
