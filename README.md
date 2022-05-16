@@ -1,11 +1,5 @@
 # dialect-prediction-with-transformers
 
-## Tech used
-
-Transformers, Hugginface, Pytorch, Tensorflow, DVC, LIT tool.
-
-## help full articles of some tech used
-
 
 [DVC](https://stribny.name/blog/2020/10/versioning-large-files-in-git-with-dvc/)
 
@@ -16,6 +10,7 @@ Next will be accelerate the model to work on online site.
 
 We will directly use dialect dataset that we have processed in other work for the same purpose [Predict Your Dialect](https://github.com/Abdelrahmanrezk/AIM_ML_Task), so you will find the data splited into train, test and validation inside the direction of dataset.
 
+
 ## Note !
 
 Because the train dataset is over 50mb, it can not pushed to github so we use data version controller to push on drive, and you can download from here and put into dataset/train/:
@@ -23,6 +18,14 @@ Because the train dataset is over 50mb, it can not pushed to github so we use da
 [Download](https://drive.google.com/u/3/uc?id=1jwOxvXbqnhbQHoTbd3x21CeupgJ2IR-H&export=download)
 
 Or you can unzip the file in train direction using "unzip strat_train_set.zip"
+
+
+
+## Tech used
+
+Transformers, Hugginface, Pytorch, Tensorflow, DVC, LIT tool.
+
+## help full articles of some tech used
 
 
 
