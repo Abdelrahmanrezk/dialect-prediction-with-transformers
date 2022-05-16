@@ -15,7 +15,7 @@ We will directly use dialect dataset that we have processed in other work for th
 
 Because the train dataset is over 50mb, it can not pushed to github so we use data version controller to push on drive, and you can download from here and put into dataset/train/:
 
-[Download](https://drive.google.com/u/3/uc?id=1jwOxvXbqnhbQHoTbd3x21CeupgJ2IR-H&export=download)
+[Download](https://drive.google.com/u/3/uc?id=1NEZufxSP9O6OjX7Lxzy6VByaGHxaq0BM&export=download)
 
 Or you can unzip the file in train direction using "unzip strat_train_set.zip"
 
