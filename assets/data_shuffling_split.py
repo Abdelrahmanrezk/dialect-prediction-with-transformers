@@ -1,7 +1,6 @@
 from sklearn.model_selection import StratifiedShuffleSplit, train_test_split
 import pandas as pd
 from collections import Counter
-# from configs import *
 
 
 
