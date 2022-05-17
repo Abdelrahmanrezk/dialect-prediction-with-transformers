@@ -5,16 +5,7 @@ from collections import Counter
 
 
 
-def read_file(file_path):
-    '''
-    The function used to read csv file.
-    Argument
-        file_path   : path, where is the path of the file to read
-    Return 
-        readed_data : the file we have readed
-    '''
-    readed_data = pd.read_csv(file_path, lineterminator='\n')
-    return readed_data
+
 
 ########################### Start random splitting
 
@@ -165,6 +156,19 @@ def get_keys_that_val_gr_than_num(num_of_words_in_each_text, num):
 ########################### End of validate the data used and the new created data with new text column
 
 
+########################### start read and save functions
+
+def read_file(file_path):
+    '''
+    The function used to read csv file.
+    Argument
+        file_path   : path, where is the path of the file to read
+    Return 
+        readed_data : the file we have readed
+    '''
+    readed_data = pd.read_csv(file_path, lineterminator='\n')
+    return readed_data
+
 
 def save_train_test_data(data, sub_dir, file_name_to_save):
     '''
@@ -181,3 +185,5 @@ def save_train_test_data(data, sub_dir, file_name_to_save):
     data.to_csv(file_path_to_save, index=False, encoding='utf8')
 
     return True
+
+    ########################### End read and save functions

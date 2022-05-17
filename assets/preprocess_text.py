@@ -42,8 +42,6 @@ DETECT_SPECIAL_CHARS = re.compile("[\U0001f9bd\U0001f9d1\U0001f7e0\U000fe19b\U00
 
 
 
-
-
 ########################## Start to Clean / Normalize Arabic Tweets
 
 def clean_str(text):
@@ -119,4 +117,10 @@ def clean_str(text):
 
 
 ########################## End of Clean / Normalize Arabic Tweets
+
+
+# ########################## End some Helpful Functions ######################################
+
+#### ------------------------------------------------------------------------------------------------------- ####
+
 
