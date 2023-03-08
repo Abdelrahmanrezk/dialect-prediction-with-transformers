@@ -1,5 +1,4 @@
 .gitignore
-dataset/dialect_data/train/strat_train_set.csv
-dataset/dialect_data/dialect_dataset_with_text.csv
+dataset/train/strat_train_set.csv
 notebooks/__pycache__/
 notebooks/.ipynb_checkpoints/
